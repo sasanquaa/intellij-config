@@ -1,0 +1,42 @@
+Plug 'easymotion/vim-easymotion'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+
+nmap <Leader>confo :e ~/.ideavimrc<CR>
+nmap <Leader>confr <Action>(IdeaVim.ReloadVimRc.reload)
+
+nmap gD <Action>(GotoDeclaration)
+nmap gt <Action>(GotoTypeImplementation)
+nmap gi <Action>(GotoImplementation)
+nmap gr <Action>(ShowUsages)
+nmap gf <Action>(GotoFile)
+nmap gC <Action>(GotoClass)
+nmap gA <Action>(GotoAction)
+nmap gs <Action>(GotoSymbol)
+
+nmap ntf :NERDTreeFocus<CR>
+nmap ntt :NERDTreeToggle<CR>
+nmap nts :NERDTreeFind<CR>
+nmap ntc :NERDTreeClose<CR>
+nmap ntr :NERDTreeRefreshRoot<CR>
+
+nmap Z <Action>(ToggleZenMode)
+nmap L <Action>(ShowErrorDescription)
+nmap K <Action>(QuickJavaDoc)
+
+nmap <Leader>rn <Action>(RenameElement)
+nmap <Leader>ca <Action>(ShowIntentionActions)
+
+nmap <Leader>fa <Action>(ReformatCode)
+xmap <Leader>fs <Action>(ReformatCode)
+
+nmap <Leader>or <Action>(OptimizeImports)
+nmap <Leader>ov <Action>(OverrideMethods)
+
+nmap <Leader>termf <Action>(ActivateTerminalToolWindow)
+nmap <Leader>logf <Action>(ActivateLogcatToolWindow)
+nmap <Leader>emuf <Action>(ActivateAndroidEmulatorToolWindow)
+
+nmap <Leader>as <Action>(Android.SyncProject)
+nmap <Leader>av <Action>(Android.Designer.ForceRefreshPreview)
