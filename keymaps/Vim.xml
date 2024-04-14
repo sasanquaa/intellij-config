@@ -1,110 +1,62 @@
-<keymap version="1" name="Vim">
-  <action id="CloseGotItTooltip">
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
-  </action>
-  <action id="EditorChooseLookupItem">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
-  <action id="EditorChooseLookupItemReplace">
-    <keyboard-shortcut first-keystroke="tab" />
-  </action>
-  <action id="EditorDelete">
-    <keyboard-shortcut first-keystroke="back_space" />
-  </action>
+<keymap version="2" name="Vim">
   <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
-  <action id="EditorDownWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="EditorEnter">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
-  <action id="EditorEscape">
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
-  <action id="EditorIndentSelection">
-    <keyboard-shortcut first-keystroke="tab" />
-  </action>
-  <action id="EditorTab">
-    <keyboard-shortcut first-keystroke="tab" />
-  </action>
-  <action id="EditorUnindentSelection">
-    <keyboard-shortcut first-keystroke="shift tab" />
-  </action>
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="ctrl k" />
-  </action>
-  <action id="EditorUpWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
-  </action>
-  <action id="FocusEditor">
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
-  <action id="List-selectNextColumn">
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id="List-selectNextRow">
-    <keyboard-shortcut first-keystroke="ctrl j" />
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="List-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="List-selectPreviousColumn">
+    <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
-  <action id="NavBar-cancel">
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
-  <action id="NextEditorTab">
-    <keyboard-shortcut first-keystroke="meta d" />
-  </action>
-  <action id="NextParameter">
-    <keyboard-shortcut first-keystroke="tab" />
-  </action>
-  <action id="PopupMenu-cancel">
-    <keyboard-shortcut first-keystroke="escape" />
-  </action>
-  <action id="PopupMenu-return">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
-  <action id="PopupMenu-selectChild">
-    <keyboard-shortcut first-keystroke="l" />
-  </action>
-  <action id="PopupMenu-selectNext">
-    <keyboard-shortcut first-keystroke="j" />
-  </action>
-  <action id="PopupMenu-selectParent">
-    <keyboard-shortcut first-keystroke="h" />
-  </action>
-  <action id="PopupMenu-selectPrevious">
-    <keyboard-shortcut first-keystroke="k" />
-  </action>
-  <action id="PrevParameter">
-    <keyboard-shortcut first-keystroke="shift tab" />
-  </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="meta p" />
-  </action>
-  <action id="SearchEverywhere.NextTab">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
-  <action id="SearchEverywhere.PrevTab">
+  <action id="NavBar-selectLeft">
+    <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="SearchEverywhere.SelectItem">
-    <keyboard-shortcut first-keystroke="enter" />
+  <action id="NavBar-selectRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id="Terminal.SwitchFocusToEditor">
-    <keyboard-shortcut first-keystroke="escape" />
+  <action id="PopupMenu-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  <action id="PopupMenu-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
-  <action id="android.deploy.CodeSwap">
-    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
+  <action id="Table-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Table-selectNextRow">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="Table-selectPreviousColumn">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="Table-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
 </keymap>
